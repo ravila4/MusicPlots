@@ -25,7 +25,8 @@ sp.trace = False
 tids = []
 
 # Search for songs by an artist and append their ID to the list
-results = sp.search("Bitter Ruin Pushin' Out the Light", limit=1)
+results = sp.search("Bitter Ruin", limit=5)
+print(results)
 for i, t in enumerate(results['tracks']['items']):
     print(' ', i, t['name'])
     tids.append(t['uri'])
@@ -35,7 +36,7 @@ print(tids)
 # Search for audio features for each song in the ID list
 # This creates a list of dictionaries 
 song_list = sp.audio_features(tids)
-
+print(song_list)
 for song in song_list:
     # Print response in JSON format
     print(json.dumps(song, indent=4))
