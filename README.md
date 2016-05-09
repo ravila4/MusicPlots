@@ -30,6 +30,12 @@ Sample scatter plot generated using interactive widgets:
 ![Interactive Plot](https://cloud.githubusercontent.com/assets/9020496/15120590/10784dfa-15dc-11e6-91dd-fdc38674f967.png)
 
 
+## Conclusions
+
+Using my data set, several trends are observed from the scatter plots: Higher energy tracks tend to be louder, and less acoustic. Higher valence songs tend to be louder, higher in energy, and higher in danceability, however, 
+lower valence songs can be either low or high in any of these values. These results are not objective, and could likely be a result of my own preferences in music. In order to produce generalizable results, we would require a random data set.
+
+
 ## Requirements
 
 Interfaces for the Last.fm and Spotify web APIs:
