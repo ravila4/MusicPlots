@@ -23,7 +23,7 @@ The first plot created is a simple bar chart to display the user's most listened
 
 ![Bar Chart](https://cloud.githubusercontent.com/assets/9020496/15120591/109e7002-15dc-11e6-8233-66aed5f05ecb.png)
 
-To analyze the realationship between the different audio features, an interactive scatter plot is created, which allows the user to change the value of the data plotted on each of the axes, as well as the color of the data points.
+To analyze the relationship between the different audio features, an interactive scatter plot is created, which allows the user to change the value of the data plotted on each of the axes, as well as the color of the data points.
 
 Sample scatter plot generated using interactive widgets:
 
